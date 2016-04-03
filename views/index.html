@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title><%= title %></title>
+		<style>
+			body {
+				font-family: monospace;
+				max-width: 600px;
+				min-width: 300px;
+				margin: 1em auto;
+			}
+			#mainTitle{
+				font-weight: bold;
+				font-size: 18px;
+			}
+			#posts{
+				display: block;
+				margin-top: 5%;
+				font-size: 14px;
+			}
+			.coverPhoto img{
+				width:210px;
+				height: 140px;
+			}
+		</style>	
+	</head>
+
+	<body>
+		<h3 id='mainTitle'>NYUAD Newspaper</h3>
+
+		<h4>That's how New York Times would look like if NYUAD student body controlled it.</h4>
+		<div id="posts">Loading...</div>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/underscore-min.js"></script>
+		<script src="js/lobibox.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/lobibox.min.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
